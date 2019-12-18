@@ -1,0 +1,17 @@
+MariaDB [belajar]> select
+    -> tugas_daftar_provinsi.prov,
+    -> tugas_populasi.kota,
+    -> tugas_populasi.penduduk
+    -> from tugas_populasi, tugas_daftar_provinsi
+    -> where kota = ibukota
+    -> order by penduduk desc;
++------------------+-----------+----------+
+| prov             | kota      | penduduk |
++------------------+-----------+----------+
+| Sumatera Utara   | Medan     |  2465469 |
+| Jawa Barat       | Bandung   |  2339463 |
+| Sulawesi Selatan | Makassar  |  1651146 |
+| Jawa Tengah      | Semarang  |  1621384 |
+| Sumatera Selatan | Palembang |  1548064 |
++------------------+-----------+----------+
+5 rows in set (0.004 sec)

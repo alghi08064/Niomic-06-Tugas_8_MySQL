@@ -1,0 +1,20 @@
+MariaDB [belajar]> select
+    -> kota as 'Nama Kota',
+    -> kec as 'Jumlah Kecamatan',
+    -> kel as 'Jumlah Kelurahan'
+    -> from tugas_populasi;
++-----------+------------------+------------------+
+| Nama Kota | Jumlah Kecamatan | Jumlah Kelurahan |
++-----------+------------------+------------------+
+| Jakarta   |               44 |              267 |
+| Surabaya  |               31 |              154 |
+| Medan     |               21 |              151 |
+| Bekasi    |               12 |               56 |
+| Bandung   |               30 |              151 |
+| Makassar  |               14 |              143 |
+| Depok     |               11 |               63 |
+| Semarang  |               16 |              177 |
+| Tangerang |               13 |              104 |
+| Palembang |               14 |              107 |
++-----------+------------------+------------------+
+10 rows in set (0.001 sec)

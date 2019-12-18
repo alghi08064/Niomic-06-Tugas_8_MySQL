@@ -1,0 +1,8 @@
+MariaDB [belajar]> select * from tugas_populasi where kec between 20 and 30;
++---------+------+------+--------+----------+
+| kota    | kec  | kel  | luas   | penduduk |
++---------+------+------+--------+----------+
+| Medan   |   21 |  151 | 265.00 |  2465469 |
+| Bandung |   30 |  151 | 167.67 |  2339463 |
++---------+------+------+--------+----------+
+2 rows in set (0.004 sec)

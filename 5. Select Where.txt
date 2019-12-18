@@ -1,0 +1,7 @@
+MariaDB [belajar]> select * from tugas_populasi where kota = 'Depok';
++-------+------+------+--------+----------+
+| kota  | kec  | kel  | luas   | penduduk |
++-------+------+------+--------+----------+
+| Depok |   11 |   63 | 200.29 |  1631951 |
++-------+------+------+--------+----------+
+1 row in set (0.001 sec)
